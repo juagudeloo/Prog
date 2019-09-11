@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main (void)
+  
+{
+  double miles {0.0};
+  double km {0.0};
+  std::cout << "write the value in miles : \n";
+  std::cint >> miles;
+  km=miles*1.609
+    std::cout << "Convertion to kilometers" << km << "\n";
+  
+  return 0;
+  
+}

@@ -1,0 +1,21 @@
+//En este archivo estamos viendo el alcance de las variables
+
+#include <iostream>
+
+const double X = 5.6;
+
+int main(void)
+  
+{
+  std::cout << &X << "\n";
+  double x=7.4;//Esta es una variable "global".
+  
+  std::cout << &x << "\n";
+  {
+    std::cout << &x << "\n";//Esto nos asigna la primera variable mencionada
+    double x=7.4;
+    std::cout << &x << "\n";//Esto nos asigna la variable local (la que está declarada justo antes de mencionarla y que está dentro de la nueba región determinada por los segundos corchetes.
+  }
+  std::cout << &x << "\n";
+  return 0;
+}
