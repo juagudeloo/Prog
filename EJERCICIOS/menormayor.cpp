@@ -16,7 +16,7 @@ int main (void)
 
   //----------------------------------------------------------------
   
-  if (x<=y && x<=z)
+  if (x<=y && x<=z) //¡¡¡HAY QUE ASEGURARSE DE NO COLOCAR NUEVAMENTE LAS MISMAS CONDICIONES EN LOS OTROS \"if\". POR EJEMPO, NO COLOCAR x<=z y z<=x, SI NO, x<=z y z<x!!!
     {
       if (y<z)
 	{
