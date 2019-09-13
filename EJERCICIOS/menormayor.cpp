@@ -9,11 +9,9 @@ int main (void)
   int y {0};
   int z {0};
 
-  std::cout << "Escriba un número entero:\n";
+  std::cout << "Escriba tres números enteros:\n";
   std::cin >> x;
-  std::cout << "Escriba un número entero:\n";
   std::cin >> y;
-  std::cout << "Escriba un número entero:\n";
   std::cin >> z;
 
   //----------------------------------------------------------------
@@ -22,39 +20,39 @@ int main (void)
     {
       if (y<z)
 	{
-	  std::cout << x << ", " << y << ", " << z << "\n";
+	  std::cout << "Su orden de mayor a menor es: " << x << ", " << y << ", " << z << "\n";
 	}
       else
 	{
-	  std::cout << x << ", " << z << ", " << y << "\n";
+	  std::cout << "Su orden de mayor a menor es: " << x << ", " << z << ", " << y << "\n";
 	}
     }
   
   //----------------------------------------------------------------
   
-   if (y<=x && x<=z)
+   if (y<x && y<=z)
     {
       if (x<z)
 	{
-	  std::cout << y << ", " << x << ", " << z << "\n";
+	  std::cout << "Su orden de mayor a menor es: " << y << ", " << x << ", " << z << "\n";
 	}
       else
 	{
-	  std::cout << y << ", " << z << ", " << x << "\n";
+	  std::cout << "Su orden de mayor a menor es: " << y << ", " << z << ", " << x << "\n";
 	}
     }
 
     //----------------------------------------------------------------
 
-      if (z<=x && z<=y)
+      if (z<x && z<y)
     {
       if (x<y)
 	{
-	  std::cout << z << ", " << x << ", " << y << "\n";
+	  std::cout << "Su orden de mayor a menor es: " << z << ", " << x << ", " << y << "\n";
 	}
       else
 	{
-	  std::cout << z << ", " << y << ", " << x << "\n";
+	  std::cout << "Su orden de mayor a menor es: " << z << ", " << y << ", " << x << "\n";
 	}
     }
 
