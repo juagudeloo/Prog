@@ -4,7 +4,10 @@ Juan Esteban Agudelo Ortiz
 Johan Sebastián Moreno García
      CC: 1007399627
      Código: 760014397
-
+Carlos Andrés del Valle Urberuaga
+     CC: 1071172254
+     Código: 3945581917
+     
 DESCRIPCIÓN DE LA TAREA:
 
 Primero se realiza la creación del repositorio local y del archivo .gitignore para ignorar archivos no importantes. Luego, las actividades a hacer son:
