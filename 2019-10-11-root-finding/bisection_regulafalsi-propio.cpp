@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cmath>
 
-using fptr = double (double)  
+using fptr = double (double);  
   
   double bisection (double xl, double xu, double eps, fptr fun);
 double regulafalsi (double xl, double xu, double eps, fptr fun);
