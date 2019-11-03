@@ -23,17 +23,13 @@ int main (void)
    
   //----------------------------------------------
 
-   double monthlytemperatures[20] = {0};
-   for (int ii = 0; ii < 20; ii++){
-     monthlytemperatures[ii] = ii;
+   double monthlytemperatures[12] = {0};
+   for (int ii = 0; ii < 12; ii++){
+     std::cin >>  monthlytemperatures[ii];
    }
-   double array3[12] = {0};
-   for (int jj= 0; jj < 12; jj++){
-     array3[jj] = monthlytemperatures[jj];
-   }
-
+  
    for(int ii = 0; ii < 12; ii++){
-     std::cout << array3[ii] << "\t";
+     std::cout << monthlytemperatures[ii] << "\t";
    }
 
    std::cout << "\n";
