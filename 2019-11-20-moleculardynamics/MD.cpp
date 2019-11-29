@@ -10,7 +10,7 @@ struct Particle
 };
 
 const double G = 9.81;
-const double B = 0.0// 5.432;
+const double B = 0.0; //5.432;
 const double TF = 1.83;
 const double DT = 0.01;
 
@@ -56,7 +56,7 @@ void evolve (Particle & p, double t, double dt)
   //euler: V(t+dt) = V(t) + F(t)*dt/mass;
 
   p.Rz = p.Rz + p.Vz*dt + p.Fz*dt*dt/(2*p.mass);
-  p.Vz = p.Vz+ p.Fz*dt/p.mass; //Es importante declarar después la velocidad, porque si no, la posición no tomará los valores de la velocidad previos (t) a la evolución del tiempo (t+dt), sino posteriores, lo cual nos dará datos falsos acerca de la posición del cuerpo en el instante t+dt.
+  p.Vz = p.Vz+ p.Fz*dt/p.mass; //Es importante declarar despues la velocidad, porque si no, la posicion no tomara los valores de la velocidad previos (t) a la evolucion del tiempo (t+dt), sino posteriores, lo cual nos dara datos falsos acerca de la posicion del cuerpo en el instante t+dt.
   
 
 }
